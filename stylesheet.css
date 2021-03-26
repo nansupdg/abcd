@@ -17,6 +17,7 @@ a {
 
 .container {
   max-width: 1170px;
+  width: 100%
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -34,6 +35,25 @@ a {
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 10px;
+}
+/* Tambahkan breakpoint max-width: 1000px */
+@media (max-width: 1000px) {
+  h1 {
+    color: #ffff00;
+  }
+  .item {
+    width:50%;
+  }    
+}
+}
+/* Tambahkan breakpoint max-width: 670px */
+@media (max-width: 670px) {
+  h1 {
+    color: #ffff00;
+  }
+  .item {
+    width:100%;
+  }    
 }
 
 .top-wrapper p {
